@@ -15,5 +15,5 @@ def longest_substring_in_alphabetical_order(string):
 
 
 if __name__ == '__main__':
-	string = raw_input("Enter string: ")
-	print "Longest substring in alphabetical order is: %s" % (longest_substring_in_alphabetical_order(string))
+	string = input("Enter string: ")
+	print("Longest substring in alphabetical order is: %s" % longest_substring_in_alphabetical_order(string))
